@@ -1,7 +1,7 @@
 :root {
     --color-principal:#faf9f7;
-    --color-secundario:#dcc8ab;
-    --color-terciario:#bea587;
+    --color-secundario:#D01712;
+    --color-terciario:#D01712;
  
     --font-principal:'Montserrat', sans-serif;
     --font-secundaria:'Montserrat', sans-serif;
@@ -209,10 +209,20 @@ audio::-webkit-media-controls-current-time-display {
    flex-direction: row;
    padding: 20px 0;
    gap: 10px;
-   background-image: url(./figuras/box.png); /* Cambia la imagen */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  
+   
+}
+.ubicacion .nuevo {
+     background-image: url(./figuras/box.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+body .redes {
+     background-image: url(./figuras/box2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat ;
 }
 .ubicacion-bloque {
     width: 100%;
@@ -241,6 +251,7 @@ audio::-webkit-media-controls-current-time-display {
     margin: auto;
     padding: auto;
 }
+
 .icon {
     width: 80px;
     
@@ -289,7 +300,7 @@ audio::-webkit-media-controls-current-time-display {
 
 
 .caja {
-    background-image: url(./figuras/box.png);
+    background-image: url(./figuras/box2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,12 +313,13 @@ audio::-webkit-media-controls-current-time-display {
     width: 100%;
     padding: 30px 0;
     gap: 10px;
-    background-color:var(--color-principal);
+    background-color:#FEFBFB;
     max-width: 500px;
     margin: 50px 0 50px 0;
     border-radius: 20px;
     
 }
+
 .dos p { 
     max-width: 500px;
     padding: 0PX 30px;
